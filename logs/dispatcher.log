@@ -1,0 +1,8 @@
+2024-10-12 14:51:21 DEBUG TelegramBot:31 - f
+2024-10-12 14:54:41 DEBUG TelegramBot:32 - /start
+2024-10-12 15:02:01 DEBUG TelegramBot:34 - даров
+2024-10-12 15:02:01 ERROR TelegramBot:47 - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+2024-10-12 15:02:04 DEBUG TelegramBot:34 - иди нахуй
+2024-10-12 15:02:04 ERROR TelegramBot:47 - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+2024-10-12 15:02:59 DEBUG TelegramBot:34 - Кто убил индиса
+2024-10-12 15:02:59 ERROR TelegramBot:47 - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
