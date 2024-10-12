@@ -19,3 +19,102 @@
 2024-10-12 19:27:05 DEBUG UpdateProducerImpl:21 - hello
 2024-10-12 19:28:50 DEBUG UpdateProducerImpl:21 - im alive
 2024-10-12 19:30:50 DEBUG UpdateProducerImpl:21 - Я тебя порву бля
+2024-10-12 20:26:59 DEBUG UpdateProducerImpl:21 - /start
+2024-10-12 20:27:57 DEBUG UpdateProducerImpl:21 - /start
+2024-10-12 20:30:35 DEBUG UpdateProducerImpl:21 - Hello
+2024-10-12 20:33:25 DEBUG UpdateProducerImpl:21 - hello
+2024-10-12 20:38:16 DEBUG UpdateProducerImpl:21 - 
+2024-10-12 20:38:26 DEBUG UpdateProducerImpl:21 - ау
+2024-10-12 20:39:44 DEBUG UpdateProducerImpl:21 - что за хуйня
+2024-10-12 20:53:47 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:53:47 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:53:47 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:53:47 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:53:47 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:53:47 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:53:47 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:53:55 DEBUG UpdateProducerImpl:21 - /start
+2024-10-12 20:53:55 DEBUG UpdateProducerImpl:21 - /start
+2024-10-12 20:53:55 DEBUG UpdateProducerImpl:21 - /start
+2024-10-12 20:54:21 DEBUG UpdateProducerImpl:21 - hi
+2024-10-12 20:54:57 DEBUG UpdateProducerImpl:21 - fbdhdf
+2024-10-12 20:55:23 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:23 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:23 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:23 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:23 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:23 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:23 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:27 DEBUG UpdateProducerImpl:21 - gh
+2024-10-12 20:55:27 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:33 DEBUG UpdateProducerImpl:21 - 1
+2024-10-12 20:55:33 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:33 DEBUG UpdateProducerImpl:21 - 1
+2024-10-12 20:55:33 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:33 DEBUG UpdateProducerImpl:21 - 1
+2024-10-12 20:55:33 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:34 DEBUG UpdateProducerImpl:21 - 1
+2024-10-12 20:55:34 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:34 DEBUG UpdateProducerImpl:21 - 11
+2024-10-12 20:55:34 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:34 DEBUG UpdateProducerImpl:21 - 1
+2024-10-12 20:55:34 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:34 DEBUG UpdateProducerImpl:21 - 1
+2024-10-12 20:55:34 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:35 DEBUG UpdateProducerImpl:21 - 1
+2024-10-12 20:55:35 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:55:35 DEBUG UpdateProducerImpl:21 - 1
+2024-10-12 20:55:35 ERROR AnswerConsumerImpl:26 - Received invalid SendMessage: {}
+2024-10-12 20:57:18 DEBUG UpdateProducerImpl:21 - hi
+2024-10-12 20:57:19 DEBUG AnswerConsumerImpl:26 - Received invalid SendMessage
+2024-10-12 20:57:27 DEBUG UpdateProducerImpl:21 - hi
+2024-10-12 20:57:27 DEBUG AnswerConsumerImpl:26 - Received invalid SendMessage
+2024-10-12 20:57:30 DEBUG UpdateProducerImpl:21 - 346
+2024-10-12 20:57:30 DEBUG AnswerConsumerImpl:26 - Received invalid SendMessage
+2024-10-12 21:05:46 DEBUG UpdateProducerImpl:21 - j
+2024-10-12 21:06:24 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:24 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:43 DEBUG UpdateProducerImpl:21 - fgfdgfd
+2024-10-12 21:06:43 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:43 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:48 DEBUG UpdateProducerImpl:21 - hh
+2024-10-12 21:06:48 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:48 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:55 DEBUG UpdateProducerImpl:21 - 0
+2024-10-12 21:06:55 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:55 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:55 DEBUG UpdateProducerImpl:21 - 0
+2024-10-12 21:06:55 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:55 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:55 DEBUG UpdateProducerImpl:21 - 0
+2024-10-12 21:06:55 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:55 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:55 DEBUG UpdateProducerImpl:21 - 0
+2024-10-12 21:06:55 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:55 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:56 DEBUG UpdateProducerImpl:21 - 0
+2024-10-12 21:06:56 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:56 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:56 DEBUG UpdateProducerImpl:21 - 0
+2024-10-12 21:06:56 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:56 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:56 DEBUG UpdateProducerImpl:21 - 0
+2024-10-12 21:06:56 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:56 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:56 DEBUG UpdateProducerImpl:21 - 0
+2024-10-12 21:06:56 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:56 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:56 DEBUG UpdateProducerImpl:21 - 0
+2024-10-12 21:06:56 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:56 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:57 DEBUG UpdateProducerImpl:21 - 0
+2024-10-12 21:06:57 DEBUG AnswerConsumerImpl:25 - Received SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:06:57 DEBUG AnswerConsumerImpl:27 - Received invalid SendMessage: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:09:35 DEBUG UpdateProducerImpl:21 - 1
+2024-10-12 21:09:58 DEBUG UpdateProducerImpl:21 - р
+2024-10-12 21:40:40 DEBUG UpdateProducerImpl:21 - ghj
+2024-10-12 21:40:40 DEBUG UpdateProducerImpl:21 - test msg
+2024-10-12 21:46:44 DEBUG AnswerConsumerImpl:26 - Invalid SendMessage object received: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:46:44 DEBUG AnswerConsumerImpl:26 - Invalid SendMessage object received: SendMessage(chatId=1667167118, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+2024-10-12 21:46:50 DEBUG UpdateProducerImpl:21 - hj
+2024-10-12 21:47:18 DEBUG UpdateProducerImpl:21 - ЧТООООООООООООООО
