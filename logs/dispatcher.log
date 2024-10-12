@@ -6,3 +6,7 @@
 2024-10-12 15:02:04 ERROR TelegramBot:47 - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
 2024-10-12 15:02:59 DEBUG TelegramBot:34 - Кто убил индиса
 2024-10-12 15:02:59 ERROR TelegramBot:47 - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+2024-10-12 16:11:30 DEBUG UpdateProducerImpl:14 - Hello america
+2024-10-12 16:12:37 DEBUG UpdateProducerImpl:14 - прив
+2024-10-12 16:12:44 DEBUG UpdateProducerImpl:14 - 
+2024-10-12 16:16:31 DEBUG UpdateProducerImpl:14 - 
