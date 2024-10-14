@@ -130,17 +130,23 @@ public class MainServiceImpl implements MainService {
     }
 
     private String processServiceCommand(AppUser appUser, String cmd) {
-        if (REGISTRATION.equals(cmd)) {
+        var serviceCommand = ServiceCommands.fromValue(cmd.trim()); // Удаляем пробелы в начале и конце строки
+        if (serviceCommand == null) {
+            return "Неизвестная команда! Чтобы посмотреть список доступных команд, введи /help";
+        }
+
+        if (REGISTRATION.equals(serviceCommand)) {
             // TODO добавить регистрацию
             return "Временно недоступно...";
-        } else if (HELP.equals(cmd)) {
+        } else if (HELP.equals(serviceCommand)) {
             return help();
-        } else if (START.equals(cmd)) {
+        } else if (START.equals(serviceCommand)) {
             return "Приветствую! Чтобы посмотреть список доступных команд, введите /help";
         } else {
             return "Неизвестная команда! Чтобы посмотреть список доступных команд, введи /help";
         }
     }
+
 
     private String help() {
         return "Список доступных команд:\n"
