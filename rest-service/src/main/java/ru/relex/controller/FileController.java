@@ -53,7 +53,7 @@ public class FileController {
         }
         return ResponseEntity.ok()
                 .contentType(MediaType.IMAGE_JPEG)
-                .header("Content-Disposition", "attachment;")
+                .header("Content-Disposition", "attachment; filename=\"photo.jpg\"")  // строка для указания имени и формата
                 .body(fileSystemResourse);
     }
 }
