@@ -142,3 +142,12 @@
 2024-10-14 13:14:04 DEBUG UpdateProducerImpl:21 - ап
 2024-10-14 13:14:10 DEBUG UpdateProducerImpl:21 - чячппарол
 2024-10-14 13:14:27 DEBUG UpdateProducerImpl:21 - хух брат не пугай так, ты слишком долго молчал, я думал че то сломалось. Привет от чата!
+2024-10-14 15:01:09 ERROR UpdateController:37 - Message is null
+2024-10-14 15:01:11 ERROR UpdateController:37 - Message is null
+2024-10-14 15:01:11 DEBUG UpdateProducerImpl:21 - /start
+2024-10-14 15:01:33 DEBUG UpdateProducerImpl:21 - /help
+2024-10-14 15:02:10 DEBUG UpdateProducerImpl:21 - /cancel
+2024-10-14 15:02:15 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-14 15:02:40 DEBUG UpdateProducerImpl:21 - /some_test_command
+2024-10-14 15:02:58 DEBUG UpdateProducerImpl:21 - 
+2024-10-14 15:03:16 DEBUG UpdateProducerImpl:21 - 
