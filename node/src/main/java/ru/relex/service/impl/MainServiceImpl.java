@@ -7,11 +7,15 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.User;
 import ru.relex.dao.AppUserDao;
 import ru.relex.dao.RawDataDao;
+import ru.relex.entity.AppDocument;
+import ru.relex.entity.AppPhoto;
 import ru.relex.entity.AppUser;
 import ru.relex.entity.RawData;
-import ru.relex.entity.enums.UserState;
+import ru.relex.exceptions.UploadFileException;
+import ru.relex.service.FileService;
 import ru.relex.service.MainService;
 import ru.relex.service.ProducerService;
+import ru.relex.service.enums.ServiceCommands;
 
 import static ru.relex.entity.enums.UserState.BASIC_STATE;
 import static ru.relex.entity.enums.UserState.WAIT_FOR_EMAIL_STATE;
@@ -24,37 +28,41 @@ public class MainServiceImpl implements MainService {
     private final RawDataDao rawDataDao;
     private final ProducerService producerService;
     private final AppUserDao appUserDao;
+    private final FileService fileService;
 
-    public MainServiceImpl(RawDataDao rawDataDao, ProducerService producerService, AppUserDao appUserDao) {
+    public MainServiceImpl(RawDataDao rawDataDao, ProducerService producerService, AppUserDao appUserDao,
+                           FileService fileService) {
         this.rawDataDao = rawDataDao;
         this.producerService = producerService;
         this.appUserDao = appUserDao;
+        this.fileService = fileService;
     }
 
     @Override
     public void processTextMessage(Update update) {
         saveRawData(update);
-
         var appUser = findOrSaveAppUser(update);
         var userState = appUser.getState();
         var text = update.getMessage().getText();
         var output = "";
 
-        if (CANCEL.equals(text)) {
+        var serviceCommand = ServiceCommands.fromValue(text);
+        if (CANCEL.equals(serviceCommand)) {
             output = cancelProcess(appUser);
         } else if (BASIC_STATE.equals(userState)) {
-            output = procesServiceCommand(appUser, text);
+            output = processServiceCommand(appUser, text);
         } else if (WAIT_FOR_EMAIL_STATE.equals(userState)) {
-            // TODO добавить обработку email
+            // TODO добавить обработку e-mail
         } else {
             log.error("Unknown user state: " + userState);
-            output = "Неизвестная ошибка! Введите /cancel и попробуйте снова.";
+            output = "Неизвестная ошибка! Введите /cancel и попробуйте снова!";
         }
 
         var chatId = update.getMessage().getChatId();
         sendAnswer(output, chatId);
-
     }
+
+
 
     @Override
     public void processDocMessage(Update update) {
@@ -64,10 +72,17 @@ public class MainServiceImpl implements MainService {
         if (isNotAllowToSendContent(chatId, appUser)) {
             return;
         }
+        try {
+            AppDocument doc = fileService.processDoc(update.getMessage());
+            // TODO добавить сохранение документа
+            var answer = "Файл успешно загружен! Ссылка для скачивания: http://test.ru/get-doc/???";
+            sendAnswer(answer, chatId);
+        } catch (UploadFileException ex) {
+            log.error(ex);
+            String error = "К сожалению, загрузка файла не удалась. Повторите попытку позже.";
+            sendAnswer(error, chatId);
+        }
 
-        // TODO добавить сохранение документа
-        var answer = "Файл успешно загружен! Ссылка для скачивания: http://test.ru/get-doc/???";
-        sendAnswer(answer, chatId);
     }
 
     private boolean isNotAllowToSendContent(Long chatId, AppUser appUser) {
@@ -93,10 +108,19 @@ public class MainServiceImpl implements MainService {
             return;
         }
 
-        // TODO добавить сохранение фото
-        var answer = "Фотография успешно загружена! Ссылка для скачивания: http://test.ru/get-photo/???";
-        sendAnswer(answer, chatId);
+        try {
+            AppPhoto photo = fileService.processPhoto(update.getMessage());
+            // TODO добавить генерацию ссылки для скачивания фото
+            var answer = "Фото успешно загружено! "
+                    + "Ссылка для скачивания: http://test.ru/get-photo/777";
+            sendAnswer(answer, chatId);
+        } catch (UploadFileException ex) {
+            log.error(ex);
+            String error = "К сожалению, загрузка фото не удалась. Повторите попытку позже.";
+            sendAnswer(error, chatId);
+        }
     }
+
 
     private void sendAnswer(String output, Long chatId) {
         SendMessage sendMessage = new SendMessage();
@@ -105,7 +129,7 @@ public class MainServiceImpl implements MainService {
         producerService.producerAnswer(sendMessage);
     }
 
-    private String procesServiceCommand(AppUser appUser, String cmd) {
+    private String processServiceCommand(AppUser appUser, String cmd) {
         if (REGISTRATION.equals(cmd)) {
             // TODO добавить регистрацию
             return "Временно недоступно...";
