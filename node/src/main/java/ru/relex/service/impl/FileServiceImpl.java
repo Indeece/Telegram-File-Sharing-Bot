@@ -2,7 +2,7 @@ package ru.relex.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
-// import org.hashids.Hashids;
+import org.hashids.Hashids;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
@@ -23,7 +23,8 @@ import ru.relex.entity.AppPhoto;
 import ru.relex.entity.BinaryContent;
 import ru.relex.exceptions.UploadFileException;
 import ru.relex.service.FileService;
-// import ru.relex.service.enums.LinkType;
+import ru.relex.service.enums.LinkType;
+import ru.relex.utils.CryptoTool;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -44,8 +45,8 @@ public class FileServiceImpl implements FileService {
     @Value("${service.file_storage.uri}")
     private String fileStorageUri;
 
-    //@Value("${link.address}")
-    //private String linkAddress;
+    @Value("${link.address}")
+    private String linkAddress;
 
     private final AppDocumentDao appDocumentDAO;
 
@@ -53,7 +54,7 @@ public class FileServiceImpl implements FileService {
 
     private final BinaryContentDao binaryContentDAO;
 
-    // private final Hashids hashids;
+    private final CryptoTool cryptoTool;
 
     @Override
     public AppDocument processDoc(Message telegramMessage) {
@@ -71,6 +72,8 @@ public class FileServiceImpl implements FileService {
 
     @Override
     public AppPhoto processPhoto(Message telegramMessage) {
+        var photoSizeCount = telegramMessage.getPhoto().size();
+        var photoIndex = photoSizeCount > 1 ? telegramMessage.getPhoto().size() - 1 : 0;
         PhotoSize telegramPhoto = telegramMessage.getPhoto().get(0);
         String fileId = telegramPhoto.getFileId();
         ResponseEntity<String> response = getFilePath(fileId);
@@ -81,6 +84,12 @@ public class FileServiceImpl implements FileService {
         } else {
             throw new UploadFileException("Bad response from telegram service: " + response);
         }
+    }
+
+    @Override
+    public String generateLink(Long docId, LinkType linkType) {
+        var hash = cryptoTool.hashOf(docId);
+        return "http://" + linkAddress + "/" + linkType + "?id=" + hash;
     }
 
     private BinaryContent getPersistentBinaryContent(ResponseEntity<String> response) {
@@ -148,10 +157,4 @@ public class FileServiceImpl implements FileService {
             throw new UploadFileException(urlObj.toExternalForm(), e);
         }
     }
-
-    //@Override
-    //public String generateLink(Long docId, LinkType linkType) {
-    //    var hash = hashids.encode(docId);
-    //    return linkAddress + "/api/" + linkType + "?id=" + hash;
-    //}
 }

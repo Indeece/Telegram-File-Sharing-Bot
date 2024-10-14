@@ -178,3 +178,22 @@
 2024-10-14 20:06:58 DEBUG UpdateProducerImpl:21 - /help
 2024-10-14 20:07:01 DEBUG UpdateProducerImpl:21 - /cancel
 2024-10-14 20:07:03 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-14 20:10:30 DEBUG UpdateProducerImpl:21 - Hello america
+2024-10-14 20:10:46 ERROR UpdateController:37 - Message is null
+2024-10-14 20:10:47 DEBUG UpdateProducerImpl:21 - опав
+2024-10-14 20:10:49 DEBUG UpdateProducerImpl:21 - /help
+2024-10-14 20:10:49 ERROR UpdateController:37 - Message is null
+2024-10-14 20:10:50 DEBUG UpdateProducerImpl:21 - /start
+2024-10-14 20:10:51 DEBUG UpdateProducerImpl:21 - /cancel
+2024-10-14 20:10:52 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-14 20:11:01 DEBUG UpdateProducerImpl:21 - Free brick
+2024-10-14 20:11:16 DEBUG UpdateProducerImpl:21 - 
+2024-10-14 20:12:24 DEBUG UpdateProducerImpl:21 - 
+2024-10-14 20:12:38 DEBUG UpdateProducerImpl:21 - 
+2024-10-14 20:13:37 DEBUG UpdateProducerImpl:21 - 
+2024-10-14 20:15:30 DEBUG UpdateProducerImpl:21 - 
+2024-10-14 20:16:15 DEBUG UpdateProducerImpl:21 - 
+2024-10-14 23:33:48 DEBUG UpdateProducerImpl:21 - 
+2024-10-14 23:34:37 DEBUG UpdateProducerImpl:21 - 
+2024-10-14 23:35:46 DEBUG UpdateProducerImpl:21 - 
+2024-10-14 23:36:28 DEBUG UpdateProducerImpl:21 - 
