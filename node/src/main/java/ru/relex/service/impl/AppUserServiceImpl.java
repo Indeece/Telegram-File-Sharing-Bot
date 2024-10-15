@@ -59,7 +59,6 @@ public class AppUserServiceImpl implements AppUserService {
             appUser = appUserDAO.save(appUser);
 
             var cryptoUserId = cryptoTool.hashOf(appUser.getId());
-            sendRegistrationMail(cryptoUserId, email);
             var response = sendRegistrationMail(cryptoUserId, email);
             if (response.getStatusCode() != HttpStatus.OK) {
                 var msg = String.format("Отправка электронного письма на почту %s не удалась", email);
