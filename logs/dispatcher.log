@@ -246,3 +246,41 @@
 2024-10-16 13:15:28 DEBUG UpdateProducerImpl:21 - /registration
 2024-10-16 13:15:30 DEBUG UpdateProducerImpl:21 - /about
 2024-10-16 13:15:33 DEBUG UpdateProducerImpl:21 - /report
+2024-10-16 13:43:18 DEBUG UpdateProducerImpl:21 - sdfgh
+2024-10-16 13:43:21 DEBUG UpdateProducerImpl:21 - /help
+2024-10-16 13:48:49 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-16 13:48:51 DEBUG UpdateProducerImpl:21 - tidec74562@avzong.com
+2024-10-16 13:49:13 DEBUG UpdateProducerImpl:21 - 
+2024-10-16 17:38:17 ERROR UpdateController:37 - Message is null
+2024-10-16 17:38:20 ERROR UpdateController:37 - Message is null
+2024-10-16 17:38:20 DEBUG UpdateProducerImpl:21 - /start
+2024-10-16 17:38:24 DEBUG UpdateProducerImpl:21 - /help
+2024-10-16 17:38:27 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-16 17:38:29 DEBUG UpdateProducerImpl:21 - /about
+2024-10-16 17:38:33 DEBUG UpdateProducerImpl:21 - /report
+2024-10-16 17:45:24 ERROR TelegramBot:40 - Error executing org.telegram.telegrambots.meta.api.methods.commands.SetMyCommands query: [404] Not Found
+2024-10-16 17:45:46 ERROR UpdateController:37 - Message is null
+2024-10-16 17:45:49 ERROR UpdateController:37 - Message is null
+2024-10-16 17:45:49 DEBUG UpdateProducerImpl:21 - /start
+2024-10-16 17:45:50 DEBUG UpdateProducerImpl:21 - vbnm
+2024-10-16 17:46:15 DEBUG UpdateProducerImpl:21 - /help
+2024-10-16 17:53:37 DEBUG UpdateProducerImpl:21 - fgjk
+2024-10-16 17:53:56 DEBUG UpdateProducerImpl:21 - dfghjk
+2024-10-16 17:53:58 DEBUG UpdateProducerImpl:21 - /help
+2024-10-16 17:54:07 DEBUG UpdateProducerImpl:21 - /report
+2024-10-16 17:54:16 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-16 17:54:19 DEBUG UpdateProducerImpl:21 - /cancel
+2024-10-16 17:54:22 DEBUG UpdateProducerImpl:21 - /about
+2024-10-16 17:54:42 DEBUG UpdateProducerImpl:21 - 
+2024-10-16 17:55:27 DEBUG UpdateProducerImpl:21 - /cancel
+2024-10-16 17:55:49 DEBUG UpdateProducerImpl:21 - /cancel
+2024-10-16 17:56:10 DEBUG UpdateProducerImpl:21 - 
+2024-10-16 17:56:10 DEBUG UpdateProducerImpl:21 - /cancel
+2024-10-16 17:56:46 DEBUG UpdateProducerImpl:21 - g
+2024-10-16 17:57:14 DEBUG UpdateProducerImpl:21 - 
+2024-10-16 17:57:20 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-16 17:57:56 DEBUG UpdateProducerImpl:21 - tidec74562@avzong.com
+2024-10-16 17:58:05 DEBUG UpdateProducerImpl:21 - /cancel
+2024-10-16 17:58:25 DEBUG UpdateProducerImpl:21 - 
+2024-10-16 18:02:09 DEBUG UpdateProducerImpl:21 - 
+2024-10-16 18:02:10 DEBUG UpdateProducerImpl:21 - 
