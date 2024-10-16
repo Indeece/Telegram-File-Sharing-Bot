@@ -145,6 +145,18 @@ public class MainServiceImpl implements MainService {
             return help();
         } else if (START.equals(serviceCommand)) {
             return "Приветствую! Чтобы посмотреть список доступных команд, введите /help";
+        } else if (ABOUT.equals(serviceCommand)) {
+            return "Привет! Меня зовут Антон Шконда.\n" +
+                    "\uD83C\uDF93 Я студент Московского авиационного института,\n" +
+                    "Группа: М3О-235Б-23.\n" +
+                    "\n" +
+                    "\uD83D\uDC68\u200D\uD83D\uDCBB Я создатель бота FileRocket — удобного файлообменника, который помогает легко и быстро делиться файлами. \uD83D\uDE80\n" +
+                    "\n" +
+                    "Данный проект был выполнен в качестве курсовой работы по дисциплине \"Программирование\".\n" +
+                    "\n" +
+                    "Я в тг @indeece";
+        } else if (REPORT.equals(serviceCommand)) {
+            return "Если Вы столкнулись с багом или иной проблемой, обратитесь к @indeece";
         } else {
             return "Неизвестная команда! Чтобы посмотреть список доступных команд, введи /help";
         }
@@ -154,7 +166,9 @@ public class MainServiceImpl implements MainService {
     private String help() {
         return "Список доступных команд:\n"
                 + "/cancel - отмена выполнения текущей команды;\n"
-                + "/registration - регистрация пользователя.";
+                + "/registration - регистрация пользователя;\n"
+                + "/about - информация о создателе бота;\n"
+                + "/report - сообщить об ошибке.";
 
     }
 

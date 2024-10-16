@@ -4,5 +4,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import ru.relex.entity.RawData;
 
 public interface RawDataDao extends JpaRepository<RawData, Long> {
-
 }

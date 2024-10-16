@@ -221,3 +221,28 @@
 2024-10-15 21:26:07 DEBUG UpdateProducerImpl:21 - /registration
 2024-10-15 21:26:11 DEBUG UpdateProducerImpl:21 - somaf33811@paxnw.com
 2024-10-15 21:27:07 DEBUG UpdateProducerImpl:21 - 
+2024-10-15 21:36:38 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-15 21:37:48 DEBUG UpdateProducerImpl:21 - ponotek786@paxnw.com
+2024-10-15 21:38:30 DEBUG UpdateProducerImpl:21 - 
+2024-10-15 21:39:04 DEBUG UpdateProducerImpl:21 - 
+2024-10-15 21:41:55 DEBUG UpdateProducerImpl:21 - папв
+2024-10-15 21:41:58 DEBUG UpdateProducerImpl:21 - /help
+2024-10-15 21:42:01 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-15 21:42:12 DEBUG UpdateProducerImpl:21 - testemail@gmail.com
+2024-10-15 21:42:17 DEBUG UpdateProducerImpl:21 - /cancel
+2024-10-15 21:42:21 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-16 12:39:52 ERROR UpdateController:37 - Message is null
+2024-10-16 12:39:55 ERROR UpdateController:37 - Message is null
+2024-10-16 12:39:56 DEBUG UpdateProducerImpl:21 - /start
+2024-10-16 12:40:59 DEBUG UpdateProducerImpl:21 - /help
+2024-10-16 12:41:03 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-16 12:41:14 DEBUG UpdateProducerImpl:21 - yelires572@rowplant.com
+2024-10-16 12:41:58 DEBUG UpdateProducerImpl:21 - 
+2024-10-16 12:48:49 DEBUG UpdateProducerImpl:21 - erhgjkf
+2024-10-16 13:09:13 DEBUG UpdateProducerImpl:21 - /report
+2024-10-16 13:09:17 DEBUG UpdateProducerImpl:21 - /about
+2024-10-16 13:15:09 DEBUG UpdateProducerImpl:21 - /help
+2024-10-16 13:15:25 DEBUG UpdateProducerImpl:21 - /cancel
+2024-10-16 13:15:28 DEBUG UpdateProducerImpl:21 - /registration
+2024-10-16 13:15:30 DEBUG UpdateProducerImpl:21 - /about
+2024-10-16 13:15:33 DEBUG UpdateProducerImpl:21 - /report

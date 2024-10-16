@@ -2,7 +2,6 @@ package ru.relex.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
-import org.hashids.Hashids;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
@@ -25,7 +24,6 @@ import ru.relex.exceptions.UploadFileException;
 import ru.relex.service.FileService;
 import ru.relex.service.enums.LinkType;
 import ru.relex.utils.CryptoTool;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
