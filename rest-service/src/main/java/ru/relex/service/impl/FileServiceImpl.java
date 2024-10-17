@@ -44,17 +44,4 @@ public class FileServiceImpl implements FileService {
         }
         return appPhotoDAO.findById(id).orElse(null);
     }
-
-    @Override
-    public FileSystemResource getFileSystemResource(BinaryContent binaryContent) {
-        try {
-            File temp = File.createTempFile("tempFile", ".bin");
-            temp.deleteOnExit();
-            FileUtils.writeByteArrayToFile(temp, binaryContent.getFileAsArrayOfBytes());
-            return new FileSystemResource(temp);
-        } catch (IOException e) {
-            log.error(e);
-            return null;
-        }
-    }
 }

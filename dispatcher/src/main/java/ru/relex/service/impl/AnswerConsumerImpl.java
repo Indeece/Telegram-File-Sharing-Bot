@@ -4,7 +4,7 @@ import lombok.extern.log4j.Log4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
-import ru.relex.controller.UpdateController;
+import ru.relex.controller.UpdateProcessor;
 import ru.relex.service.AnswerConsumer;
 
 import static ru.relex.model.RabbitQueue.ANSWER_MESSAGE;
@@ -13,10 +13,10 @@ import static ru.relex.model.RabbitQueue.ANSWER_MESSAGE;
 @Service
 public class AnswerConsumerImpl implements AnswerConsumer {
 
-    private final UpdateController updateController;
+    private final UpdateProcessor updateProcessor;
 
-    public AnswerConsumerImpl(UpdateController updateController) {
-        this.updateController = updateController;
+    public AnswerConsumerImpl(UpdateProcessor updateProcessor) {
+        this.updateProcessor = updateProcessor;
     }
 
     @Override
@@ -26,7 +26,7 @@ public class AnswerConsumerImpl implements AnswerConsumer {
             log.debug("Invalid SendMessage object received: " + sendMessage);
             return;
         }
-        updateController.setView(sendMessage);
+        updateProcessor.setView(sendMessage);
     }
 
 
