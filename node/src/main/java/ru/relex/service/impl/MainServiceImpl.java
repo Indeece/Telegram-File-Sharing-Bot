@@ -136,6 +136,8 @@ public class MainServiceImpl implements MainService {
 
     private String processServiceCommand(AppUser appUser, String cmd) {
         var serviceCommand = ServiceCommands.fromValue(cmd.trim()); // Удаляем пробелы в начале и конце строки
+        log.info("Получена команда: " + cmd + ", распознана как: " + serviceCommand); // Добавьте логирование
+
         if (serviceCommand == null) {
             return "Неизвестная команда! Чтобы посмотреть список доступных команд, введи /help";
         }
@@ -162,6 +164,7 @@ public class MainServiceImpl implements MainService {
             return "Неизвестная команда! Чтобы посмотреть список доступных команд, введи /help";
         }
     }
+
 
 
     private String help() {

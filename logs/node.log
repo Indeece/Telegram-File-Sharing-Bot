@@ -36209,3 +36209,425 @@
 2024-10-17 13:28:10 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
 2024-10-17 13:28:10 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
 2024-10-17 13:28:10 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:16:47 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:16:48 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:16:48 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:20:58 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:00 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:01 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:02 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:02 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:03 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:19 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:19 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:20 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:20 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:21 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:21 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:22 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:23 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:23 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:21:24 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:19 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:20 INFO  MainServiceImpl:139 - Получена команда: пролд, распознана как: null
+2024-10-17 19:28:20 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:20 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:28:21 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:21 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:28:24 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:24 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:25 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:25 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:25 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:25 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:25 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:25 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:25 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:25 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:25 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:25 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:25 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:26 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:26 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:26 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:26 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:26 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:26 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:26 INFO  MainServiceImpl:139 - Получена команда: аа, распознана как: null
+2024-10-17 19:28:26 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:26 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:26 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:26 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:27 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:27 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:27 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:27 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:27 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:27 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:27 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:27 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:27 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:27 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:27 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:27 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:27 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:27 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:28:28 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:28:28 INFO  MainServiceImpl:139 - Получена команда: аа, распознана как: null
+2024-10-17 19:29:10 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:29:10 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:35:44 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:35:45 INFO  MainServiceImpl:139 - Получена команда: фыс, распознана как: null
+2024-10-17 19:35:57 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-17 19:36:25 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:36:25 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:36:25 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:36:25 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:37:31 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:31 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:37:31 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:31 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:37:32 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:32 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:33 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:33 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:33 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:33 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:33 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:33 INFO  MainServiceImpl:139 - Получена команда: аа, распознана как: null
+2024-10-17 19:37:33 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:33 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:34 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:34 INFO  MainServiceImpl:139 - Получена команда: аа, распознана как: null
+2024-10-17 19:37:34 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:34 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:34 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:34 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:34 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:34 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:34 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:34 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:34 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:34 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:35 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:35 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:35 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:35 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:35 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:35 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:35 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:35 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:35 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:35 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:35 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:35 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:36 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:36 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:36 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:36 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:36 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:36 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:36 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:36 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:36 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:36 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:36 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:36 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:36 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:37 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:37 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:37 INFO  MainServiceImpl:139 - Получена команда: аа, распознана как: null
+2024-10-17 19:37:37 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:37 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:37 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:37 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:39 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:40 INFO  MainServiceImpl:139 - Получена команда: /about, распознана как: /about
+2024-10-17 19:37:41 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:43 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:37:43 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:43 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
+2024-10-17 19:37:43 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:43 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:37:43 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:43 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
+2024-10-17 19:37:48 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:48 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:48 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:48 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:48 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:48 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:48 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:48 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:48 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:48 INFO  MainServiceImpl:139 - Получена команда: аа, распознана как: null
+2024-10-17 19:37:49 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:49 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:49 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:49 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:49 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:49 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:49 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:49 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:49 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:49 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:50 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:50 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:50 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:50 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:50 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:50 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:50 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:50 INFO  MainServiceImpl:139 - Получена команда: аа, распознана как: null
+2024-10-17 19:37:50 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:50 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:50 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:51 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:51 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:51 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:51 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:51 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:51 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:51 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:51 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:51 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:51 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:51 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:51 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:51 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:52 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:52 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:52 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:52 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:52 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:52 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:52 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:52 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:52 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:52 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:52 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:53 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:53 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:53 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:53 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:53 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:53 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:53 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:53 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:53 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:53 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:53 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:54 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:54 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:54 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:54 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:54 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:54 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:54 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:54 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:54 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:54 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:55 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:55 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:55 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:55 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:55 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:55 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:55 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:55 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:55 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:55 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:55 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:55 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:56 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:56 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:56 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:56 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:56 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:56 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:56 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:56 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:56 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:56 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:57 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:57 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:57 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:57 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:57 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:57 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:57 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:57 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:57 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:57 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:58 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:58 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:58 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:58 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:58 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:58 INFO  MainServiceImpl:139 - Получена команда: ааа, распознана как: null
+2024-10-17 19:37:58 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:58 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:59 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:59 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:59 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:59 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:59 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:59 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:59 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:59 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:59 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:59 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:37:59 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:37:59 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:38:00 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:00 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:38:00 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:00 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:38:01 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:01 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:38:03 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:03 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:38:03 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:03 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:38:03 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:03 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:38:04 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:04 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:38:04 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:04 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:38:04 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:04 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:38:08 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:08 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:38:10 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:10 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:38:11 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:11 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:13 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:13 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:13 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:13 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:14 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:14 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:14 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:14 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:15 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:15 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:15 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:15 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:15 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:15 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:16 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:16 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:16 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:16 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:16 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:16 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:17 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:17 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:17 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:17 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:18 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:18 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:38:19 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:38:19 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:39:46 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:39:47 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:43:15 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:43:16 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:43:16 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:43:16 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:43:32 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:43:32 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:47:29 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:47:30 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:47:30 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:47:30 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:47:33 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:47:33 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:47:53 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:47:53 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
+2024-10-17 19:47:55 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:47:58 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:47:58 INFO  MainServiceImpl:139 - Получена команда: /about, распознана как: /about
+2024-10-17 19:48:09 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:48:09 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:48:30 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-17 19:49:21 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:49:22 INFO  MainServiceImpl:139 - Получена команда: а, распознана как: null
+2024-10-17 19:49:24 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:49:25 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 19:49:32 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-17 19:49:58 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-17 19:50:30 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:50:30 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:50:32 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:50:32 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 19:50:34 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 19:50:34 INFO  MainServiceImpl:139 - Получена команда: /about, распознана как: /about
+2024-10-17 19:51:09 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-17 19:53:54 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-17 19:59:51 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-17 20:14:50 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-17 20:16:48 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-17 20:17:35 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 20:17:35 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-17 20:17:37 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 20:17:37 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
+2024-10-17 20:17:39 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 20:17:39 INFO  MainServiceImpl:139 - Получена команда: /about, распознана как: /about
+2024-10-17 20:17:40 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 20:17:40 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 21:12:30 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 21:12:32 INFO  MainServiceImpl:139 - Получена команда: укннгш, распознана как: null
+2024-10-17 21:12:32 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 21:12:32 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
+2024-10-17 21:12:32 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 21:12:32 INFO  MainServiceImpl:139 - Получена команда: апароолдпав, распознана как: null
+2024-10-17 21:12:37 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 21:12:37 INFO  MainServiceImpl:139 - Получена команда: ывподэжло, распознана как: null
+2024-10-17 21:13:55 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 21:13:55 INFO  MainServiceImpl:139 - Получена команда: /about, распознана как: /about
+2024-10-17 21:13:56 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-17 21:13:56 INFO  MainServiceImpl:139 - Получена команда: /report, распознана как: /report
+2024-10-17 21:14:03 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-18 11:12:45 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:12:45 INFO  MainServiceImpl:139 - Получена команда: кег, распознана как: null
+2024-10-18 11:12:48 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:12:48 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-18 11:19:39 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:19:40 INFO  MainServiceImpl:139 - Получена команда: fghjk, распознана как: null
+2024-10-18 11:19:42 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:19:42 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-18 11:19:43 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:19:43 INFO  MainServiceImpl:139 - Получена команда: /about, распознана как: /about
+2024-10-18 11:19:49 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 11:19:55 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-18 11:21:26 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:21:26 INFO  MainServiceImpl:139 - Получена команда: апро, распознана как: null
+2024-10-18 11:21:27 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:21:27 INFO  MainServiceImpl:139 - Получена команда: /help, распознана как: /help
+2024-10-18 11:21:32 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:21:32 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
+2024-10-18 11:21:34 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:22:09 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:22:09 INFO  MainServiceImpl:139 - Получена команда: и где, распознана как: null
+2024-10-18 11:25:16 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:25:16 INFO  MainServiceImpl:139 - Получена команда: ррпав, распознана как: null
+2024-10-18 11:25:21 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 11:48:15 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 11:48:21 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:48:21 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
+2024-10-18 11:48:24 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:49:35 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:49:35 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
+2024-10-18 11:49:39 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:50:31 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:50:31 INFO  MainServiceImpl:139 - Получена команда: ye, распознана как: null
+2024-10-18 11:53:16 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 11:53:16 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
+2024-10-18 11:53:22 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 13:49:43 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 13:49:46 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
+2024-10-18 13:49:49 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 13:50:23 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received

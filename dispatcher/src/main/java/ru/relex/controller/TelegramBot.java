@@ -48,18 +48,18 @@ public class TelegramBot extends TelegramWebhookBot {
             log.error(e);
         }
 
-//        // Переносим установку команд в метод init
-//        List<BotCommand> listOfCommands = new ArrayList<>();
-//        listOfCommands.add(new BotCommand("/registration", "Регистрация пользователя"));
-//        listOfCommands.add(new BotCommand("/cancel", "Отмена загрузки контента"));
-//        listOfCommands.add(new BotCommand("/about", "Информация о создателе бота"));
-//        listOfCommands.add(new BotCommand("/report", "Сообщить об ошибке"));
-//
-//        try {
-//            this.execute(new SetMyCommands(listOfCommands, new BotCommandScopeDefault(), null));
-//        } catch (TelegramApiException e) {
-//            log.error("Ошибка при установке команд: " + e.getMessage());
-//        }
+        // Переносим установку команд в метод init
+        List<BotCommand> listOfCommands = new ArrayList<>();
+        listOfCommands.add(new BotCommand("/help", "Список доступных команд"));
+        listOfCommands.add(new BotCommand("/registration", "Регистрация пользователя"));
+        listOfCommands.add(new BotCommand("/about", "Информация о создателе бота"));
+        listOfCommands.add(new BotCommand("/report", "Сообщить об ошибке"));
+
+        try {
+            this.execute(new SetMyCommands(listOfCommands, new BotCommandScopeDefault(), null));
+        } catch (TelegramApiException e) {
+            log.error("Ошибка при установке команд: " + e.getMessage());
+        }
     }
 
     @Override
