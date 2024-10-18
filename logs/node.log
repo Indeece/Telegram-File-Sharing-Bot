@@ -36631,3 +36631,20 @@
 2024-10-18 13:49:46 INFO  MainServiceImpl:139 - Получена команда: /registration, распознана как: /registration
 2024-10-18 13:49:49 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
 2024-10-18 13:50:23 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 14:40:25 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 14:40:26 INFO  MainServiceImpl:135 - Получена команда: sdfghhgffdf, распознана как: null
+2024-10-18 14:40:31 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 14:40:31 INFO  MainServiceImpl:135 - Получена команда: /help, распознана как: /help
+2024-10-18 14:40:33 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 14:40:33 INFO  MainServiceImpl:135 - Получена команда: /about, распознана как: /about
+2024-10-18 14:40:40 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 14:41:25 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-18 14:45:03 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 14:45:04 INFO  MainServiceImpl:135 - Получена команда: dsfbn, распознана как: null
+2024-10-18 14:45:08 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 14:45:18 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-18 15:06:02 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 15:06:03 INFO  MainServiceImpl:135 - Получена команда: впрол, распознана как: null
+2024-10-18 15:06:10 DEBUG ConsumerServiceImpl:48 - NODE: Audio message is received
+2024-10-18 15:06:38 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 15:06:47 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received

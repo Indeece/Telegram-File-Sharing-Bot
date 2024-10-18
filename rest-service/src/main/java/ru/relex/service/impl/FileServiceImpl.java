@@ -2,19 +2,15 @@ package ru.relex.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
-import org.apache.commons.io.FileUtils;
-import org.springframework.core.io.FileSystemResource;
 import org.springframework.stereotype.Service;
+import ru.relex.dao.AppAudioDao;
 import ru.relex.dao.AppDocumentDao;
 import ru.relex.dao.AppPhotoDao;
+import ru.relex.entity.AppAudio;
 import ru.relex.entity.AppDocument;
 import ru.relex.entity.AppPhoto;
-import ru.relex.entity.BinaryContent;
 import ru.relex.service.FileService;
 import ru.relex.utils.CryptoTool;
-
-import java.io.File;
-import java.io.IOException;
 
 @Log4j
 @RequiredArgsConstructor
@@ -24,6 +20,8 @@ public class FileServiceImpl implements FileService {
     private final AppDocumentDao appDocumentDAO;
 
     private final AppPhotoDao appPhotoDAO;
+
+    private final AppAudioDao appAudioDAO;
 
     private final CryptoTool cryptoTool;
 
@@ -44,4 +42,14 @@ public class FileServiceImpl implements FileService {
         }
         return appPhotoDAO.findById(id).orElse(null);
     }
+
+    @Override
+    public AppAudio getAudio(String hash) {
+        var id = cryptoTool.idOf(hash);
+        if (id == null) {
+            return null;
+        }
+        return appAudioDAO.findById(id).orElse(null);
+    }
+
 }

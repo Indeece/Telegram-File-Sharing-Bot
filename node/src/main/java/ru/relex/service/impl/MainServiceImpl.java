@@ -3,15 +3,11 @@ package ru.relex.service.impl;
 import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
-import org.telegram.telegrambots.meta.api.objects.Audio;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.User;
 import ru.relex.dao.AppUserDao;
 import ru.relex.dao.RawDataDao;
-import ru.relex.entity.AppDocument;
-import ru.relex.entity.AppPhoto;
-import ru.relex.entity.AppUser;
-import ru.relex.entity.RawData;
+import ru.relex.entity.*;
 import ru.relex.exceptions.UploadFileException;
 import ru.relex.service.AppUserService;
 import ru.relex.service.FileService;
@@ -204,5 +200,25 @@ public class MainServiceImpl implements MainService {
                 .event(update)
                 .build();
         rawDataDao.save(rawData);
+    }
+
+    @Override
+    public void processAudioMessage(Update update) {
+        saveRawData(update);
+        var appUser = findOrSaveAppUser(update);
+        var chatId = update.getMessage().getChatId();
+        if (isNotAllowToSendContent(chatId, appUser)) {
+            return;
+        }
+        try {
+            AppAudio audio = fileService.processAudio(update.getMessage());
+            String link = fileService.generateLink(audio.getId(), LinkType.GET_AUDIO);
+            var answer = "Аудио файл был успешно загружен! Ссылка для скачивания: " + link;
+            sendAnswer(answer, chatId);
+        } catch (UploadFileException ex) {
+            log.error(ex);
+            String error = "К сожалению, загрузка аудио файла не удалась. Повторите попытку позже.";
+            sendAnswer(error, chatId);
+        }
     }
 }

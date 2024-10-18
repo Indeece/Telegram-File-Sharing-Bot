@@ -69,5 +69,27 @@ public class FileController {
             response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
         }
     }
+
+    @RequestMapping(method = RequestMethod.GET, value = "/get-audio")
+    public void getAudio(@RequestParam("id") String id, HttpServletResponse response) {
+        var audio = fileService.getAudio(id);
+        if (audio == null) {
+            response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+            return;
+        }
+        response.setContentType(MediaType.parseMediaType(audio.getMimeType()).toString());
+        response.setHeader("Content-disposition", "attachment; filename=" + audio.getName());
+        response.setStatus(HttpServletResponse.SC_OK);
+
+        var binaryContent = audio.getBinaryContent();
+        try {
+            var out = response.getOutputStream();
+            out.write(binaryContent.getFileAsArrayOfBytes());
+            out.close();
+        } catch (IOException e) {
+            log.error(e);
+            response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+        }
+    }
 }
 

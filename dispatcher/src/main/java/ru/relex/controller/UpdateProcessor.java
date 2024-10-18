@@ -46,6 +46,8 @@ public class UpdateProcessor {
             proccessDocMessage(update);
         } else if (message.hasPhoto()) {
             proccessPhotoMessage(update);
+        } else if (message.hasAudio()) {  // Add this condition
+            processAudioMessage(update);  // Add this method call
         } else {
             setUnsupportedMessageTypeView(update);
         }
@@ -75,6 +77,11 @@ public class UpdateProcessor {
         var sendMessage = messageUtils.generateSendMessageWithText(update,
                 "Файл получен. Обрабатывается...");
         setView(sendMessage);
+    }
+
+    private void processAudioMessage(Update update) {
+        updateProducer.produce(AUDIO_MESSAGE_UPDATE, update);
+        setFileIsReceivedView(update);
     }
 
     private void proccessTextMessage(Update update) {

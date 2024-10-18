@@ -15,9 +15,11 @@ import org.telegram.telegrambots.meta.api.objects.Audio;
 import org.telegram.telegrambots.meta.api.objects.Document;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.PhotoSize;
+import ru.relex.dao.AppAudioDao;
 import ru.relex.dao.AppDocumentDao;
 import ru.relex.dao.AppPhotoDao;
 import ru.relex.dao.BinaryContentDao;
+import ru.relex.entity.AppAudio;
 import ru.relex.entity.AppDocument;
 import ru.relex.entity.AppPhoto;
 import ru.relex.entity.BinaryContent;
@@ -54,6 +56,8 @@ public class FileServiceImpl implements FileService {
     private final BinaryContentDao binaryContentDAO;
 
     private final CryptoTool cryptoTool;
+
+    private final AppAudioDao appAudioDao;
 
     @Override
     public AppDocument processDoc(Message telegramMessage) {
@@ -155,5 +159,29 @@ public class FileServiceImpl implements FileService {
         } catch (IOException e) {
             throw new UploadFileException(urlObj.toExternalForm(), e);
         }
+    }
+
+    @Override
+    public AppAudio processAudio(Message telegramMessage) {
+        var audio = telegramMessage.getAudio();
+        var fileId = audio.getFileId();
+        var response = getFilePath(fileId);
+        if (response.getStatusCode() == HttpStatus.OK) {
+            var persistentBinaryContent = getPersistentBinaryContent(response);
+            var transientAppAudio = buildTransientAppAudio(audio, persistentBinaryContent);
+            return appAudioDao.save(transientAppAudio);
+        } else {
+            throw new UploadFileException("Bad response from telegram service: " + response);
+        }
+    }
+
+    private AppAudio buildTransientAppAudio(Audio telegramAudio, BinaryContent persistentBinaryContent) {
+        return AppAudio.builder()
+                .telegramFileId(telegramAudio.getFileId())
+                .binaryContent(persistentBinaryContent)
+                .mimeType(telegramAudio.getMimeType())
+                .fileSize(telegramAudio.getFileSize())
+                .name(telegramAudio.getFileName())
+                .build();
     }
 }
