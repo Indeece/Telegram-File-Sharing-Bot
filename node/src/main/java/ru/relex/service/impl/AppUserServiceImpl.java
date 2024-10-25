@@ -11,7 +11,6 @@ import ru.relex.dto.MailParams;
 import ru.relex.entity.AppUser;
 import ru.relex.service.AppUserService;
 import ru.relex.utils.CryptoTool;
-
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 

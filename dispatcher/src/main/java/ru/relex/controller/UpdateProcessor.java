@@ -12,8 +12,11 @@ import static ru.relex.model.RabbitQueue.*;
 @Component
 @Log4j
 public class UpdateProcessor {
+
     private TelegramBot telegramBot;
+
     private final MessageUtils messageUtils;
+
     private final UpdateProducer updateProducer;
 
     public UpdateProcessor(MessageUtils messageUtils, UpdateProducer updateProducer) {
@@ -26,6 +29,7 @@ public class UpdateProcessor {
     }
 
     public void proccessUpdate(Update update) {
+
         if (update == null) {
             log.error("Update is null");
             return;
@@ -40,6 +44,7 @@ public class UpdateProcessor {
 
     private void distributeMessagesByType(Update update) {
         var message = update.getMessage();
+
         if (message.hasText()) {
             proccessTextMessage(update);
         } else if (message.hasDocument()) {

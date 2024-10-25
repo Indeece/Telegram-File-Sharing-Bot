@@ -7,7 +7,8 @@ public enum ServiceCommands {
     CANCEL("/cancel"),
     START("/start"),
     ABOUT("/about"),
-    REPORT("/report");
+    REPORT("/report"),
+    INFO("/info");
 
     private final String value;
 

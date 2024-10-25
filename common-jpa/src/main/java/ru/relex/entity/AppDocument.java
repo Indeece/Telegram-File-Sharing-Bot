@@ -2,7 +2,6 @@ package ru.relex.entity;
 
 import lombok.*;
 import org.hibernate.Hibernate;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

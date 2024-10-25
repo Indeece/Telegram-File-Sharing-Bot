@@ -36648,3 +36648,71 @@
 2024-10-18 15:06:10 DEBUG ConsumerServiceImpl:48 - NODE: Audio message is received
 2024-10-18 15:06:38 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
 2024-10-18 15:06:47 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-18 22:24:14 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 22:24:19 INFO  MainServiceImpl:158 - Получена команда: qasdfhgj, распознана как: null
+2024-10-18 22:24:23 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 22:24:23 INFO  MainServiceImpl:158 - Получена команда: /help, распознана как: /help
+2024-10-18 22:24:24 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 22:24:24 INFO  MainServiceImpl:158 - Получена команда: /about, распознана как: /about
+2024-10-18 22:24:26 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 22:24:26 INFO  MainServiceImpl:158 - Получена команда: /report, распознана как: /report
+2024-10-18 22:24:27 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 22:24:27 INFO  MainServiceImpl:158 - Получена команда: /registration, распознана как: /registration
+2024-10-18 22:24:35 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 22:25:19 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-18 22:26:10 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 22:26:10 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 22:32:08 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 22:32:08 INFO  MainServiceImpl:141 - Получена команда: ыввыапро, распознана как: null
+2024-10-18 22:32:10 DEBUG ConsumerServiceImpl:41 - NODE: Photo message is received
+2024-10-18 22:32:25 DEBUG ConsumerServiceImpl:34 - NODE: Doc message is received
+2024-10-18 22:42:10 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 22:42:11 INFO  MainServiceImpl:141 - Получена команда: dfg, распознана как: null
+2024-10-18 22:42:20 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 22:42:20 INFO  MainServiceImpl:141 - Получена команда: /info, распознана как: /info
+2024-10-18 22:42:33 DEBUG ConsumerServiceImpl:27 - NODE: Text message is received
+2024-10-18 22:42:33 INFO  MainServiceImpl:141 - Получена команда: /help, распознана как: /help
+2024-10-18 23:12:15 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-18 23:12:15 INFO  MainServiceImpl:137 - Получена команда: /registration, распознана как: /registration
+2024-10-18 23:12:18 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-18 23:12:22 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-18 23:12:32 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-18 23:12:32 INFO  MainServiceImpl:137 - Получена команда: /registration, распознана как: /registration
+2024-10-18 23:12:34 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-18 23:12:34 INFO  MainServiceImpl:137 - Получена команда: /help, распознана как: /help
+2024-10-18 23:12:36 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-18 23:12:42 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-18 23:12:42 INFO  MainServiceImpl:137 - Получена команда: /registration, распознана как: /registration
+2024-10-18 23:12:47 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-18 23:12:56 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-18 23:13:00 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-18 23:13:00 INFO  MainServiceImpl:137 - Получена команда: fdjghdj@gmail.com, распознана как: null
+2024-10-25 13:35:59 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 13:35:59 INFO  MainServiceImpl:137 - Получена команда: /about, распознана как: /about
+2024-10-25 13:36:02 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 13:36:02 INFO  MainServiceImpl:137 - Получена команда: /help, распознана как: /help
+2024-10-25 13:36:05 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 13:36:05 INFO  MainServiceImpl:137 - Получена команда: /info, распознана как: /info
+2024-10-25 13:36:11 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 13:36:11 INFO  MainServiceImpl:137 - Получена команда: /registration, распознана как: /registration
+2024-10-25 13:36:12 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 13:36:12 INFO  MainServiceImpl:137 - Получена команда: /about, распознана как: /about
+2024-10-25 13:36:15 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 13:36:15 INFO  MainServiceImpl:137 - Получена команда: /report, распознана как: /report
+2024-10-25 13:46:38 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 13:46:38 INFO  MainServiceImpl:137 - Получена команда: test message, распознана как: null
+2024-10-25 14:19:07 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 14:19:08 INFO  MainServiceImpl:137 - Получена команда: /registration, распознана как: /registration
+2024-10-25 14:19:08 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 14:19:08 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 14:19:17 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 14:19:23 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 14:19:23 INFO  MainServiceImpl:137 - Получена команда: cdfgh, распознана как: null
+2024-10-25 14:19:25 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 14:19:25 INFO  MainServiceImpl:137 - Получена команда: /about, распознана как: /about
+2024-10-25 14:19:26 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 14:19:26 INFO  MainServiceImpl:137 - Получена команда: /report, распознана как: /report
+2024-10-25 14:19:34 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 14:19:34 INFO  MainServiceImpl:137 - Получена команда: /registration, распознана как: /registration
+2024-10-25 14:20:09 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-10-25 14:20:31 DEBUG ConsumerServiceImpl:39 - NODE: Photo message is received

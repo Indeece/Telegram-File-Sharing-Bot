@@ -86,6 +86,7 @@ public class MainServiceImpl implements MainService {
 
     }
 
+
     private boolean isNotAllowToSendContent(Long chatId, AppUser appUser) {
         var userState = appUser.getState();
         if (!appUser.getIsActive()) {
@@ -123,6 +124,7 @@ public class MainServiceImpl implements MainService {
     }
 
 
+
     private void sendAnswer(String output, Long chatId) {
         SendMessage sendMessage = new SendMessage();
         sendMessage.setChatId(chatId);
@@ -156,7 +158,11 @@ public class MainServiceImpl implements MainService {
                     "Я в тг @indeece";
         } else if (REPORT.equals(serviceCommand)) {
             return "Если Вы столкнулись с багом или иной проблемой, обратитесь к @indeece";
-        } else {
+        } else if (INFO.equals(serviceCommand)) {
+            return "Вы можете присылать файлы любого формата (фото, аудио, документы).\n" +
+                    "НО! Если Вы хотите отправить несколько файлов, нужно предварительно сжать нужные файлы в архив и затем отправить архив боту.";
+        }
+        else {
             return "Неизвестная команда! Чтобы посмотреть список доступных команд, введи /help";
         }
     }
@@ -165,10 +171,11 @@ public class MainServiceImpl implements MainService {
 
     private String help() {
         return "Список доступных команд:\n"
-                + "/cancel - отмена выполнения текущей команды;\n"
                 + "/registration - регистрация пользователя;\n"
                 + "/about - информация о создателе бота;\n"
-                + "/report - сообщить об ошибке.";
+                + "/report - сообщить об ошибке."
+                + "/info - информация о сохранении нескольких файлов под одной ссылкой;\n"
+                + "/cancel - отмена выполнения команды;\n";
 
     }
 
