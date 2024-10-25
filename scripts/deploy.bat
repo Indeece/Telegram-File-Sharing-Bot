@@ -6,9 +6,9 @@ set ENV_FILE=".env"
 pushd %USERPROFILE%\IdeaProjects\FileRocket\ || (echo "Директория не найдена." & exit /b 1)
 
 git fetch origin
-call git checkout main || (echo "Ветка 'main' не найдена." & exit /b 1)
+call git checkout master || (echo "Ветка 'master' не найдена." & exit /b 1)
 
-call git pull origin main || (echo "Ошибка при обновлении ветки 'main'." & exit /b 1)
+call git pull origin master || (echo "Ошибка при обновлении ветки 'master'." & exit /b 1)
 
 if not exist "%CD%\%ENV_FILE%" (
     echo "Не найден файл окружения: %ENV_FILE%"
