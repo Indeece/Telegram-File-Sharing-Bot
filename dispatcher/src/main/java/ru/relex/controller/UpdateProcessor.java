@@ -7,6 +7,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import ru.relex.service.UpdateProducer;
 import ru.relex.utils.MessageUtils;
 
+
 import static ru.relex.model.RabbitQueue.*;
 
 @Component
